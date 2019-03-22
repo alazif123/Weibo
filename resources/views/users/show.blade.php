@@ -1,3 +1,6 @@
+@extends('layouts.default')
+@section('title', $user->name)
+
 @section('content')
     <div class="row">
         <div class="offset-md-2 col-md-8">
